@@ -1,0 +1,25 @@
+# Matcha Zen (id: matcha-zen), ported from the QuickTUI client terminal theme
+# (quicktui-mono protocol/client/data-terminal-themes.yml; upstream
+# livlign/posh-palette schemes/matcha-zen.json, MIT).
+# herdr has no named user themes: these tokens override whatever theme.name is set.
+# Remove this table to get the base theme back.
+[theme.custom]
+accent = "#4e8c2e"         # cursor
+panel_bg = "#f5f7ea"       # background
+sidebar_bg = "#f5f7ea"     # background
+active_row_bg = "#e9efdb"  # derived: midpoint of background and selectionBackground
+selection_bg = "#dde7cc"   # selectionBackground
+surface0 = "#e9efdb"       # derived, same midpoint
+surface1 = "#dde7cc"       # selectionBackground
+surface_dim = "#eef2e1"    # derived: background shifted 1/3 toward selectionBackground
+overlay0 = "#667656"       # brightBlack
+overlay1 = "#56664a"       # white
+text = "#354029"           # foreground
+subtext0 = "#56664a"       # white
+mauve = "#7e5ba6"          # magenta
+green = "#467e29"
+yellow = "#8d6c00"
+red = "#c2452a"
+blue = "#2e7c78"
+teal = "#277c7c"           # cyan
+peach = "#af5a1e"          # brightYellow
